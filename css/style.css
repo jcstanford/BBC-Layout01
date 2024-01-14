@@ -21,21 +21,85 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+html {
+  font-size: 62.5%;
+  /* google search BBC website for font */
 }
 
+body {
+  margin: 0;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 header {
-
+  height: 40px;
+  background: black;
+  color: white;
 }
 
-footer {
+/* header nav {
+  width: 100%;
+} */
 
+header nav * {
+  float: left;
+  height: 40px;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
 }
+
+/* bbc logo */
+header nav img {
+  float: left;
+  width: 10%;
+}
+/* sign-in element in nav */
+#signin {
+  width: 15%;
+}
+
+header nav ul {
+  float: left;
+  width: 70%; /* equal to 720px on laptop */
+  list-style: none;
+  padding-inline-start: 0; /* user agent stylesheet had 40px */
+  margin: 0;
+}
+
+header nav form {
+  width: 20%;
+  padding-top: 6px;
+}
+
+header nav form input {
+  width: 90%;
+  height: 30px;
+   
+}
+
+header nav ul li, header nav ul li a {
+  width: 90px;
+  text-align: center;
+}
+
+div > h1 {
+  float: left;
+  width: 85%;
+  height: 100px;
+  padding-top: 40px;
+  text-align: left;
+}
+
+div span {
+  width: 15%;
+  float: left;
+  height: 100px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
