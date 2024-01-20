@@ -56,10 +56,12 @@ header nav * {
 header nav img {
   float: left;
   width: 10%;
+  border-right: 1px solid white;
 }
 /* sign-in element in nav */
 #signin {
   width: 15%;
+  /* border-right: 1px solid white; */
 }
 
 header nav ul {
@@ -68,6 +70,15 @@ header nav ul {
   list-style: none;
   padding-inline-start: 0; /* user agent stylesheet had 40px */
   margin: 0;
+}
+
+header nav ul li {
+  border-right: 1px solid white;
+  padding-top: 10px;
+}
+
+#signin img {
+  width: 30%;
 }
 
 header nav form {
