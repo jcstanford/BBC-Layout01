@@ -94,6 +94,11 @@ header nav ul li, header nav ul li a {
   text-align: center;
 }
 
+/* everything under the header */
+.topHeadlines {
+  float: left;
+  width: 50%;
+}
 
 div > h1 {
   float: left;
@@ -110,11 +115,6 @@ div span {
   font-size: 2rem;
   padding: 20px 0 0 35px;
   color: grey;
-}
-
-.topHeadlines {
-  float: left;
-  width: 50%;
 }
 
 section.headline {
